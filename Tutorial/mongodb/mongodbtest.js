@@ -19,7 +19,7 @@ mongo_client.connect(global.mongodbUrl, function (err, db) {
 
         // clean up 
         // Remove all the document
-         collection.remove();
+         //collection.remove();
 
         // creates users
         var user1 = { name: 'modulus admin', age: 42, roles: ['admin', 'user', 'morderator'] };
